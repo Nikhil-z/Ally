@@ -2,6 +2,23 @@
 A Kotlin powered Android library to help developers to avoid regular and common chaos in development.
 
 
+To include in your project  
+	Step 1. Add it in your root build.gradle at the end of repositories:  
+	allprojects {
+	repositories { 
+	maven { url 'https://jitpack.io' } 		
+	} 	}         
+	
+Step 2. Add the dependency         
+	dependencies { 	          implementation 'com.github.Nikhil-z:ally:0.0.1' }
+
+
+
+
+       
+
+
+
        Copyright 2018 Nikhil
 
        Licensed under the Apache License, Version 2.0 (the "License");
