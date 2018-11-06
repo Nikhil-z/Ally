@@ -1,16 +1,62 @@
+	
+	
 # Ally
+
 A Kotlin powered Android library to help developers to avoid regular and common chaos in development.
 
+## Getting Started
 
-To include in your project  
-	Step 1. Add it in your root build.gradle at the end of repositories:  
-	allprojects {
+These instructions will get you a copy of the project up and running on your local machine for development.
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+Android Studio with version above 3
+```
+
+### Installing
+
+
+Add it in your root build.gradle at the end of repositories
+
+```
+allprojects {
 	repositories { 
 	maven { url 'https://jitpack.io' } 		
-	} 	}         
-	
-Step 2. Add the dependency         
-	dependencies { 	          implementation 'com.github.Nikhil-z:ally:0.0.1' }
+	} 	
+}    
+```
+
+Add the dependency in app gradle
+
+```
+dependencies { implementation 'com.github.Nikhil-z:ally:0.0.1' }
+```
+
+OMG !! You are good to go. Thats simple right?
+
+## Built With
+
+* [The Kotlin](https://kotlinlang.org/docs/tutorials/kotlin-android.html) - new love
+
+## Contributing
+
+Any contributions are welcome - sharing is caring ;).
+
+
+## Authors
+
+* [**Nikhil-z**](https://github.com/Nikhil-z)
+
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+
 
 
 
