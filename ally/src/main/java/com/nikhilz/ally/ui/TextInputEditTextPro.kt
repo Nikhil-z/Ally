@@ -1,4 +1,4 @@
-package com.nikhilz.ally
+package com.nikhilz.ally.ui
 
 import android.content.Context
 import android.support.design.widget.TextInputEditText
@@ -20,21 +20,21 @@ open class TextInputEditTextPro : TextInputEditText {
     private var errorText = "Please fill up the mandatory field."
 
 
-    internal fun setMinimumLength(length: Int) {
+     fun setMinimumLength(length: Int) {
         this.minimumValidTextLength = length
     }
 
-    internal fun setMinimumError(error: String) {
+     fun setMinimumError(error: String) {
         this.minimumValidLengthErrorText = error
     }
 
-    internal fun setTextInputLayout(textInputLayout: TextInputLayout) {
+     fun setTextInputLayout(textInputLayout: TextInputLayout) {
         this.textInputLayout = textInputLayout
         this.textInputLayout.isErrorEnabled = false
         enableProErrorHandler()
     }
 
-    internal fun setErrorText(errorText: String) {
+     fun setErrorText(errorText: String) {
         this.errorText = errorText
     }
 
@@ -63,11 +63,11 @@ open class TextInputEditTextPro : TextInputEditText {
         })
     }
 
-    internal fun validate(){
+     fun validate(){
         isValid()
     }
 
-    internal fun isValid(): Boolean {
+     fun isValid(): Boolean {
 
         var valid = false
         if (minimumValidTextLength > 0) {
